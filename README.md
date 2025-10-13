@@ -1,5 +1,7 @@
 # cloud-project-notes
-These are my notes learning AWS for projects
+These are my notes building with AWS resources
+
+## hosting a personal website using CloudFront
 
 ## creating a ec2 instances using terraform 
 
