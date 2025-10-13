@@ -1,5 +1,5 @@
 # cloud-project-notes
-These are my notes building with AWS resources
+Learning and building with AWS resources
 
 ## hosting a personal website using CloudFront
 
