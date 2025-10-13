@@ -12,7 +12,7 @@ terraform CLI tools
     ID – the resource ID in the cloud provider/k8s/database service/vcs service/etc
 
 ## writing configuration 
-I'm doing this on a Windows OS instead of mac0S. So, going through installing terraform for a second time I now have better success due to prior troubleshooting. 
+I'm doing this on a Windows OS instead of macOS. So, since I'm installing terraform for a second time it's smoother due to prior troubleshooting. 
 For ease, and probably the only way I could have executed on Windows, I installed windows subsystem for linux (WSL) and install Kali linus distro. I did this to follow the terraform tutorial because the commands were all in bash. 
 I installed: 
   1) chocolately to install WSL
