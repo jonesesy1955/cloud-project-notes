@@ -4,6 +4,24 @@ Learning and building with AWS resources
 ## hosting a personal website using CloudFront
 
 ## creating a ec2 instances using terraform 
+using powershell import resources from terraform, instead of mac. new computer so I need to install apps to complete the project
+
+#checking the policies to download chocolately
+`Get-ExecutionPolicy`
+
+
+#changed the policy to allow me to download chocolately
+`Set-ExecutionPolicy AllSigned -Scope LocalMachine`
+
+#installing chocolately
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+
+#install putty
+`choco install putty.install`
+
+#install terraform
+`choco install terraform`
 
 ## importing existing infrastructue resources into terraform
 terraform CLI tools
