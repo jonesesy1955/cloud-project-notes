@@ -3,6 +3,11 @@ Learning and building with AWS resources
 
 ## hosting a personal website using CloudFront
 
+## adding security headers to CloudFront distribution
+watched this YT to add HTTP security headers to CloudFront: https://www.youtube.com/watch?v=x_QbJaSKSgU
+used ssllabs to verify behavior changes were in effect. 
+tested and passed SSL server test 
+
 ## creating a ec2 instances using terraform 
 using powershell import resources from terraform, instead of mac. new computer so I need to install apps to complete the project
 
