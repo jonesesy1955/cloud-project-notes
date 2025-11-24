@@ -1,26 +1,22 @@
-# Cloud-project-notes
-Learning and building with AWS resources
+## Notes on working in the cloud and use tools
+This repository is all about me building with AWS resources and learning new tools. Here I will share my thoughts on my experiences. 
 
-## Hosting a personal website using CloudFront
-
-## Adding security headers to CloudFront distribution
-watched this YT to add HTTP security headers to CloudFront: https://www.youtube.com/watch?v=x_QbJaSKSgU
+# Adding security headers to CloudFront distribution
+I watched this YouTube on how to add HTTP security headers to CloudFront: https://www.youtube.com/watch?v=x_QbJaSKSgU
 used ssllabs to verify behavior changes were in effect. 
-tested and passed SSL server test 
+Followed the steps, tested and passed SSL server test 
 
-## Creating a ec2 instances using terraform 
-using powershell import resources from terraform, instead of mac. new computer so I need to install apps to complete the project
+# Creating a EC2 instances using terraform 
+Using powershell to import resources from Terraform, instead of mac. new computer so I need to install apps to complete the project. Here are some commands I used along the way:
 
 # Checking the policies to download chocolately
 `Get-ExecutionPolicy`
-
 
 # Changed the policy to allow me to download chocolately
 `Set-ExecutionPolicy AllSigned -Scope LocalMachine`
 
 # Installing chocolately
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-
 
 # Install putty
 `choco install putty.install`
