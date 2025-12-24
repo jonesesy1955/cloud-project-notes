@@ -2,7 +2,7 @@
 This repository is all about me building with AWS resources and learning new tools. Here I will share my thoughts on my cloud projects. 
 
 ## Project_1: Creating a personal website and hosting on AWS CloudFront
-I have a personal website that I am migrating to AWS so it can be hosted on CloudFront 
+I have a personal website that I am migrating to AWS so it can be hosted on CloudFront. Updates coming soon. 
 
 ## Project_2: Adding security headers to CloudFront distribution to secure my website
 I watched this YouTube on how to add HTTP security headers to CloudFront: https://www.youtube.com/watch?v=x_QbJaSKSgU
